@@ -1,0 +1,24 @@
+{
+  "context": "client",
+  "identifier": "com.pa.ferretmaster.build-bar-tabs",
+  "display_name": "Build Bar Tabs",
+  "description": "Splits the build bar into faction tabs to stop them overflowing in shared/sandbox",
+  "author": "Ferretmaster",
+  "version": "1.00",
+  "build": "116982",
+  "date": "2023-06-28",
+  "signature": "not yet implemented",
+  "forum": "",
+  "icon": "https://github.com/ferret-Master/build-bar-tabs/blob/main/factions.png?raw=true",
+  "priority": 100,
+  "category": [
+    "titans",
+    "in-game",
+    "server"
+  ],
+  "scenes": {
+    "live_game_build_bar": [
+      "coui://ui/mods/build_bar_tabs/live_game/build_bar_tabs.js"
+    ]
+  }
+}
