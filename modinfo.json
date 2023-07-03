@@ -6,7 +6,7 @@
   "author": "Ferretmaster",
   "version": "1.00",
   "build": "116982",
-  "date": "2023-06-28",
+  "date": "2023-07-03",
   "signature": "not yet implemented",
   "forum": "",
   "icon": "https://github.com/ferret-Master/build-bar-tabs/blob/main/factions.png?raw=true",
@@ -14,7 +14,8 @@
   "category": [
     "titans",
     "in-game",
-    "server"
+    "server",
+    "sandbox"
   ],
   "scenes": {
     "live_game_build_bar": [
