@@ -53,7 +53,7 @@ var splitBuildBar = ko.computed(function(){
       if(tabKey.startsWith("L_")  && groupTabs[tabKey].visible() == true){activeFaction.legion = true;}
       if(tabKey.startsWith("bug_") && groupTabs[tabKey].visible() == true){activeFaction.bugs = true}
       if(tabKey.startsWith("t_") && groupTabs[tabKey].visible() == true){activeFaction.tiha = true}
-      if(!tabKey.startsWith("L_") && !tabKey.startsWith("bug_") && groupTabs[tabKey].visible() == true){activeFaction.mla = true}
+      if(!tabKey.startsWith("L_") && !tabKey.startsWith("bug_") && !tabKey.startsWith("t_") and groupTabs[tabKey].visible() == true){activeFaction.mla = true}
   })
 
   if(activeFaction.mla + activeFaction.bugs + activeFaction.legion + activeFaction.tiha > 1){multipleFactions(true)}
